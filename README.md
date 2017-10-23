@@ -15,20 +15,24 @@ a function of learning rate.
 I did it as a part of homework problem in the Machine Learning class taught by Prof Daniel Gildea
 (https://www.cs.rochester.edu/~gildea/) in Spring 2017.
 
-************ Files *********
 Four Files:
+
 	1. accuracy(dev)_vs_iteration.png : this is graph for accuracy in dev set for each 
       iteration (given: learning rate = 0.751)
+	
 	2. max_accuracy(dev)_vs_learning_rate.png: This graph is for maximum accuracy in dev set 
       for each alpha (learning rate)
+	
 	3. num_of_iteration_vs_learning_rate.png : This graph is for how many iterations is needed
       to converge for each alpha (lerning rate)
+      
 	4. perceptron.py : it contains the implementaion of perceptron algorithm
 
 
 =============================================================================================== 
 
 ************ Algorithm ************
+
 input: learning rate, training set, dev set, test set
 
 while(is_not_converged):
