@@ -107,7 +107,7 @@ def main():
 	dev_data=parse_data("a7a.dev")
 	test_data=parse_data("a7a.test")
 
-	alpha_list=np.arange(0.001,2, 0.015)
+	alpha_list=np.arange(0.001,0.076, 0.015)
 	dev_max_accuracy_list=[]
 	iteration_number_list=[]
 	best_alpha=int(-1)
